@@ -1,0 +1,171 @@
+* {
+    /* border: 1.5px solid red; */
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-container {
+    background-color: #1f2937;
+    padding: 0 250px;
+}
+
+/* #region Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    margin-bottom: 100px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.header-link {
+    color: #e5e7eb;
+    font-size: 18px;
+}   
+
+/* #endregion */
+
+/* #region Hero */
+
+.hero {
+    display: flex;
+    padding-bottom: 116px;
+    gap: 50px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 42px;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    padding: 10px 40px 0;
+}
+
+/* #endregion */
+
+/* #region Random */
+
+.random {
+    padding: 50px 0px 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.card-flex {
+    margin: 40px 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    width: 200px;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+/* #endregion */
+
+/* #region Quote */
+
+.quote-container {
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    margin-top: 10px;
+    margin-right: 50px;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+/* #endregion */
+
+/* #region CTA */
+
+.call-to-action {
+    margin: 100px 250px;
+    padding: 50px 150px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-header {
+    color: #e5e7eb;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.cta-text {
+    margin-top: 6px;
+    color: #cecece;
+}
+
+.cta-button {
+    color: #e5e7eb;
+    border: 3px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 8px 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* #endregion */
+
+/* #region Footer */
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 40px 0;
+}
+
+/* #endregion */
